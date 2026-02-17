@@ -9,7 +9,7 @@ students = [
 
 @app.route("/")
 def home():
-    return "Welcome to Flask Student API 🚀"
+    return "Welcome to Flask Student API "
 
 @app.route("/students", methods=["POST"])
 def add_student():
