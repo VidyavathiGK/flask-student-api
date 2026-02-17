@@ -2,7 +2,10 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-students = {}
+students = [
+    {"id": 1, "name": "Rahul", "age": 20},
+    {"id": 2, "name": "Anjali", "age": 21}
+]
 
 @app.route("/")
 def home():
